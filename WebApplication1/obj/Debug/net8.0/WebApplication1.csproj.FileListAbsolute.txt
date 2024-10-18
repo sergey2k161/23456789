@@ -121,3 +121,4 @@ G:\All Projects\C#\WebApplication1\WebApplication1\obj\Debug\net8.0\refint\WebAp
 G:\All Projects\C#\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 G:\All Projects\C#\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 G:\All Projects\C#\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+G:\All Projects\C#\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

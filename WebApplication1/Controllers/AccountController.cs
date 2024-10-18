@@ -51,6 +51,13 @@ public class AccountController : ControllerBase
         if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
         {
             var token = GenerateJwtToken(user);
+            
+            // Добавляем токен в куки
+            Response.Cookies.Append("AuthToken", token, new CookieOptions
+            {
+                Expires = DateTimeOffset.UtcNow.AddMinutes(60) // Время жизни куки
+            });
+            
             return Ok(new { token });
         }
 
